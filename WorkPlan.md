@@ -13,12 +13,12 @@ will use the python PyTorch library. Students are expected to be proficient in p
 
 1. Cross-match the original Galaxy Zoo catalogue (S/Z labels) with the GZ3D catalogue (spiral arm masks) and the DESI catalogue (optical images);
 2. Build a model to classify the images from DESI according to their S/Z labels from GZ:
-       - Option 1 [clean slate approach]: Build a simple classifier from scratch using a LeNET architecture (or similar);
-       - Option 2 [foundation model approach]: Finetune the zoobot classifier;
-4. Investigate the performance improvement from including spiral arm masks from GZ3D as inputs;
-5. Adapt the model to incorporate group equivariant convolutions, enforcing rotational or reflectional equivariance; 
-6. Examine performance differences for different types of equivariance;
-7. Discuss and explain results.
+   * Option 1 [clean slate approach]: Build a simple classifier from scratch using a LeNET architecture (or similar);
+   * Option 2 [foundation model approach]: Finetune the zoobot classifier;
+3. Investigate the performance improvement from including spiral arm masks from GZ3D as inputs;
+4. Adapt the model to incorporate group equivariant convolutions, enforcing rotational or reflectional equivariance; 
+5. Examine performance differences for different types of equivariance;
+6. Discuss and explain results.
 
 ### Potential outputs
 
